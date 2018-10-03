@@ -1,0 +1,251 @@
+
+.primeiradiv{
+    border: 2px solid black;
+    height: 19vh;
+    width: 70vw;
+    margin: 17pt;
+    background-image: url("verde.jpg");
+   
+    
+}
+
+.segundadiv{
+    border: 2px solid black;
+    height: 19vh;
+    width: 70vw;
+    margin: 15pt;
+    background-image: url("verde.jpg");
+    
+}
+
+.primeirasection{
+    border: 2px solid black;
+    margin: 15pt;
+    height: 19vw;
+    width: 35vw;
+    background-image: url("salah.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+
+
+    
+}
+
+.primeiranav{
+    border: 2px solid black;
+    margin: 15pt;
+    height: 43vh;
+    width: 29vw;
+    background-image: url("modric.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.segundanav{
+    border: 2px solid black;
+    margin: 15pt;
+    height: 43vh;
+    width: 29vw;
+
+    
+}
+
+.terceiranav{
+    border: 2px solid black;
+    margin: 15pt;
+    height: 43vh;
+    width: 28vw;
+    background-image: url("goleiro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#aquitemnav{
+    display: flex;
+}
+
+
+#id{
+    display: flex;
+}
+
+.primeirofooter{
+    border: 2px solid black;
+    margin: 15pt;
+    height: 55vh;
+    width: 45vw;
+    background-image:url("juve.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    
+}
+
+
+body{
+    background-image: url("imagemdefundo.jpg");
+}
+
+.titulodosite{
+    color: white;
+    font-style: italic;
+    margin: 22pt;
+    font-size: 30pt;
+    
+    
+    
+}
+
+.introdução{
+    color: white;
+    font-style: italic;
+    font-size: 17pt;
+    margin: 25pt;
+}
+
+
+
+#section{
+    display: flex;
+}
+
+
+.segundasection{
+    border: 2px solid black;
+    height: 55,5;
+    width: 55vw;
+    margin: 15pt;
+    background-image: url("wallpaperchampions.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.champions{
+    color: white;
+    font-style: italic;
+    font-size: 28pt;
+    text-align: right;
+    margin: 7pt;
+}
+
+p{
+    font-size: 18pt;
+    color: white;
+    text-align: right;
+    margin: 25pt;
+}
+
+.salah{
+    color: white;
+    font-style: italic;
+    font-size: 15pt;
+    align-content: center;
+    margin: 5pt;
+
+    
+}
+
+.modric{
+    color: white;
+    text-align: right;
+    font-size: 20pt;
+    text-align: right;
+    margin: 5pt;
+}
+
+.libertadores{max-width
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    margin: 5pt;
+    
+}
+
+.curiosidade{
+    color: white;
+    text-align: center;
+    margin: 5pt;
+    font-size: 15pt;
+}
+
+.curiosidade2{
+    font-size: 25pt;
+    margin: 10pt;
+    text-align: center;
+    
+}
+
+.segundofooter{
+    border: 2px solid black;
+    margin: 15pt;
+    height: 55vh;
+    width: 44vw;
+    background-image: url("cr7.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#aquitemfooter{
+    display: flex;
+}
+
+
+
+.juve{
+    color: white;
+    margin: 27pt;
+    font-style: inherit;
+    text-align: center;
+    justify-content: end;
+}
+
+.cr7{
+    color: white;
+    margin: 15pt;
+}
+
+@media (max-width:500px){
+    #id{
+        flex-direction: column;
+        border: 2px solid black;
+        font-size: 50px;
+    }
+
+    #section{
+        flex-direction: column;
+        border: 2px solid black;
+        align-items: center;
+    }
+
+    .primeirasection{
+        flex-direction: column;
+        border: 2px solid black;
+    } 
+
+    #aquitemnav{
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid black;
+    }
+    #aquitemnav *{
+        width: 70%;
+    }
+
+    #aquitemfooter {
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid black;
+        width: 100%;
+    }
+    #aquitemfooter *{
+        width: 80%;
+    }
+    .salah{
+        font-size: 10pt;
+    }
+
+
+
+    
+}
